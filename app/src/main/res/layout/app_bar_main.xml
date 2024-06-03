@@ -26,22 +26,8 @@
         app:layout_anchorGravity="center"
         app:popupTheme="@style/Theme.MyApplication.PopupOverlay">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageButton
-                android:id="@+id/home"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/home"
-                tools:ignore="RtlHardcoded"
-                android:contentDescription="@string/todo" />
-        </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

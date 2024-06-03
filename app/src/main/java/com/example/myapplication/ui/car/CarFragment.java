@@ -26,7 +26,10 @@ public class CarFragment extends Fragment {
 
         final TextView textView = binding.textCar;
         carViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+
         return root;
+
     }
 
     @Override

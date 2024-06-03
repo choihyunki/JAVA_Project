@@ -34,4 +34,70 @@
         android:name="com.example.myapplication.ui.car.CarFragment"
         android:label="@string/nav_header_title"
         tools:layout="@layout/fragment_car" />
+
+    <fragment
+        android:id="@+id/nav_center"
+        android:name="com.example.myapplication.ui.center.CenterFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_center" />
+
+    <fragment
+        android:id="@+id/nav_dasan"
+        android:name="com.example.myapplication.ui.dasan.DasanFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_dasan" />
+
+    <fragment
+        android:id="@+id/nav_hanlim"
+        android:name="com.example.myapplication.ui.hanlim.HanlimFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_hanlim" />
+
+    <fragment
+        android:id="@+id/nav_jungbo"
+        android:name="com.example.myapplication.ui.jungbo.JungboFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_jungbo" />
+
+    <fragment
+        android:id="@+id/nav_junsan"
+        android:name="com.example.myapplication.ui.junsan.JunsanFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan" />
+
+    <fragment
+        android:id="@+id/nav_limgok"
+        android:name="com.example.myapplication.ui.limgok.LimgokFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_limgok" />
+
+    <fragment
+        android:id="@+id/nav_saenghwal"
+        android:name="com.example.myapplication.ui.saenghwal.SaenghwalFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_saenghwal" />
+
+    <fragment
+        android:id="@+id/nav_sooam"
+        android:name="com.example.myapplication.ui.sooam.SooamFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_sooam" />
+
+    <fragment
+        android:id="@+id/nav_student"
+        android:name="com.example.myapplication.ui.student.StudentFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student" />
+
+    <fragment
+        android:id="@+id/nav_toegye"
+        android:name="com.example.myapplication.ui.toegye.ToegyeFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_toegye" />
+
+    <fragment
+        android:id="@+id/nav_yulgok"
+        android:name="com.example.myapplication.ui.yulgok.YulgokFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok" />
 </navigation>

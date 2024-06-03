@@ -13,4 +13,15 @@
     <string name="menu_hongji">홍지관</string>
     <string name="menu_car">자동차관\n</string>
     <string name="todo">TODO</string>
+    <string name="menu_center">대학본부\n</string>
+    <string name="menu_dasan">다산관\n</string>
+    <string name="menu_jungbo">정보통신관</string>
+    <string name="menu_junsan">전산관</string>
+    <string name="menu_limgok">임곡관</string>
+    <string name="menu_saenghwal">생활관\n</string>
+    <string name="menu_hanlim">한림관\n</string>
+    <string name="menu_yulgok">율곡관\n</string>
+    <string name="menu_toegye">퇴계관</string>
+    <string name="menu_student">학생회관\n</string>
+    <string name="menu_sooam">수암관\n</string>
 </resources>
