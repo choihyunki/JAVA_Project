@@ -31,4 +31,5 @@
     <string name="car_5f">자동차관5층</string>
     <string name="car_6f">자동차관6층\n</string>
     <string name="car_7f">자동차관7층\n</string>
+    <string name="home">홈\n</string>
 </resources>

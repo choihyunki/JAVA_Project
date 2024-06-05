@@ -1,6 +1,5 @@
 package com.example.myapplication.ui.car;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +10,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+
+import com.example.myapplication.R;
 
 import com.example.myapplication.databinding.FragmentCarBinding;
 
@@ -36,59 +41,25 @@ public class CarFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ImageButton imageButton1f = binding.car1f;
-        ImageButton imageButton3f = binding.car3f;
-        ImageButton imageButton4f = binding.car4f;
-        ImageButton imageButton5f = binding.car5f;
-        ImageButton imageButton6f = binding.car6f;
-        ImageButton imageButton7f = binding.car7f;
 
-        imageButton1f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car1fFragment.class);
-                startActivity(intent);
-            }
-        });
 
-        imageButton3f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car3fFragment.class);
-                startActivity(intent);
-            }
-        });
-        imageButton4f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car4fFragment.class);
-                startActivity(intent);
-            }
-        });
-        imageButton5f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car5fFragment.class);
-                startActivity(intent);
-            }
-        });
-        imageButton6f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car6fFragment.class);
-                startActivity(intent);
-            }
-        });
-        imageButton7f.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Car7fFragment.class);
-                startActivity(intent);
-            }
-        });
+        NavController navController = Navigation.findNavController(view);
+
+        binding.car1f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car1f));
+        binding.car3f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car3f));
+        binding.car4f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car4f));
+        binding.car5f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car5f));
+        binding.car6f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car6f));
+        binding.car7f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car7f));
     }
 
-
+    private void loadFragment(Fragment fragment) {
+        FragmentManager fragmentManager = getParentFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_container, fragment);
+        FragmentTransaction fragmentTransaction1 = fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
     @Override
     public void onDestroyView() {
         super.onDestroyView();

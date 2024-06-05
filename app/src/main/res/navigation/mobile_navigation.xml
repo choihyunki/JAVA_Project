@@ -37,6 +37,27 @@
         <action
             android:id="@+id/action_nav_car_to_nav_car1f"
             app:destination="@id/nav_car1f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car7f"
+            app:destination="@id/nav_car7f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car5f"
+            app:destination="@id/nav_car5f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car6f"
+            app:destination="@id/nav_car6f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car4f"
+            app:destination="@id/nav_car4f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car3f"
+            app:destination="@id/nav_car3f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car1f2"
+            app:destination="@id/nav_car1f" />
+        <action
+            android:id="@+id/action_nav_car_to_nav_car1f3"
+            app:destination="@id/nav_car1f" />
     </fragment>
 
     <fragment
@@ -109,5 +130,30 @@
         android:name="com.example.myapplication.ui.car.Car1fFragment"
         android:label="@string/nav_header_title"
         tools:layout="@layout/fragment_car1f" />
+    <fragment
+        android:id="@+id/nav_car3f"
+        android:name="com.example.myapplication.ui.car.Car3fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_car3f" />
+    <fragment
+        android:id="@+id/nav_car4f"
+        android:name="com.example.myapplication.ui.car.Car4fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_car4f" />
+    <fragment
+        android:id="@+id/nav_car5f"
+        android:name="com.example.myapplication.ui.car.Car5fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_car5f" />
+    <fragment
+        android:id="@+id/nav_car6f"
+        android:name="com.example.myapplication.ui.car.Car6fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_car6f" />
+    <fragment
+        android:id="@+id/nav_car7f"
+        android:name="com.example.myapplication.ui.car.Car7fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_car7f" />
 
 </navigation>

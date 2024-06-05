@@ -23,12 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.car.Car1fFragment" />
-        <activity android:name=".ui.car.Car3fFragment" />
-        <activity android:name=".ui.car.Car4fFragment" />
-        <activity android:name=".ui.car.Car5fFragment" />
-        <activity android:name=".ui.car.Car6fFragment" />
-        <activity android:name=".ui.car.Car7fFragment" />
     </application>
 
 </manifest>
