@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">대림대학교 캠퍼스맵</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">대림대학교</string>
+    <string name="nav_header_title">대림대학교 캠퍼스맵</string>
     <string name="nav_header_subtitle">캠퍼스맵</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -12,7 +12,6 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_hongji">홍지관</string>
     <string name="menu_car">자동차관\n</string>
-    <string name="todo">TODO</string>
     <string name="menu_center">대학본부\n</string>
     <string name="menu_dasan">다산관\n</string>
     <string name="menu_jungbo">정보통신관</string>
@@ -24,4 +23,12 @@
     <string name="menu_toegye">퇴계관</string>
     <string name="menu_student">학생회관\n</string>
     <string name="menu_sooam">수암관\n</string>
+    <string name="Idx">202030108 김찬규\n202130131 최원재\n202130132 염재현\n202130133 최현기</string>
+    <string name="todo">TODO</string>
+    <string name="car_1f">자동차관1층</string>
+    <string name="car_3f">자동차관3층</string>
+    <string name="car_4f">자동차관4층</string>
+    <string name="car_5f">자동차관5층</string>
+    <string name="car_6f">자동차관6층\n</string>
+    <string name="car_7f">자동차관7층\n</string>
 </resources>

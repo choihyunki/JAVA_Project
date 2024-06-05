@@ -6,17 +6,136 @@
     android:layout_height="match_parent"
     tools:context=".ui.car.CarFragment">
 
+
+    <ImageView
+        android:id="@+id/image_carbuilding"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jadongcha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+
     <TextView
         android:id="@+id/text_car"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="52dp" />
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/image_carline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/carline"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_car"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/car_1f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/car1f_image"
+        android:layout_marginTop="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_carline"
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints"
+        android:elevation="4dp"
+        android:contentDescription="@string/car_1f"/>
+
+    <ImageButton
+        android:id="@+id/car_3f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/car3f_image"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_1f"
+        tools:layout_editor_absoluteY="341dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/car_3f"/>
+
+    <ImageButton
+        android:id="@+id/car_4f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/car4f_image"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_3f"
+        tools:layout_editor_absoluteY="413dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/car_4f"/>
+
+    <ImageButton
+        android:id="@+id/car_5f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/car5f_image"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_4f"
+        tools:layout_editor_absoluteY="481dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/car_5f"/>
+
+    <ImageButton
+        android:id="@+id/car_6f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/car6f_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_5f"
+        tools:layout_editor_absoluteY="545dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/car_6f"/>
+
+    <ImageButton
+        android:id="@+id/car_7f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/car_7f"
+        android:src="@drawable/car7f_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_6f"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
