@@ -29,7 +29,23 @@
     <string name="car_3f">자동차관3층</string>
     <string name="car_4f">자동차관4층</string>
     <string name="car_5f">자동차관5층</string>
-    <string name="car_6f">자동차관6층\n</string>
-    <string name="car_7f">자동차관7층\n</string>
+    <string name="car_6f">자동차관6층</string>
+    <string name="car_7f">자동차관7층</string>
+
+    <string name="yulgok_1f">율곡관1층</string>
+    <string name="yulgok_2f">율곡관2층</string>
+    <string name="yulgok_3f">율곡관3층</string>
+    <string name="yulgok_4f">율곡관4층</string>
+    <string name="yulgok_5f">율곡관5층</string>
+    <string name="yulgok_6f">율곡관6층</string>
+    <string name="yulgok_7f">율곡관7층</string>
+
+    <string name="toegye_1f">퇴계관1층</string>
+    <string name="toegye_2f">퇴계관2층</string>
+    <string name="toegye_3f">퇴계관3층</string>
+    <string name="toegye_4f">퇴계관4층</string>
+    <string name="toegye_5f">퇴계관5층</string>
+    <string name="toegye_6f">퇴계관6층</string>
+    <string name="toegye_7f">퇴계관7층</string>
     <string name="home">홈\n</string>
 </resources>

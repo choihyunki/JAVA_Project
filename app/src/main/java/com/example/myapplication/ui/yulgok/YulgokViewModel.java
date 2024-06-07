@@ -10,7 +10,7 @@ public class YulgokViewModel extends ViewModel {
 
     public YulgokViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Yulgok fragment");
+        mText.setValue("율곡관");
     }
 
     public LiveData<String> getText() {

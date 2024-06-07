@@ -53,13 +53,7 @@ public class CarFragment extends Fragment {
         binding.car7f.setOnClickListener(v -> navController.navigate(R.id.action_nav_car_to_nav_car7f));
     }
 
-    private void loadFragment(Fragment fragment) {
-        FragmentManager fragmentManager = getParentFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_container, fragment);
-        FragmentTransaction fragmentTransaction1 = fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
-    }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();

@@ -10,7 +10,7 @@ public class ToegyeViewModel extends ViewModel {
 
     public ToegyeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Toegye fragment");
+        mText.setValue("퇴계관");
     }
 
     public LiveData<String> getText() {

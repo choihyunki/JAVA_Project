@@ -52,12 +52,6 @@
         <action
             android:id="@+id/action_nav_car_to_nav_car3f"
             app:destination="@id/nav_car3f" />
-        <action
-            android:id="@+id/action_nav_car_to_nav_car1f2"
-            app:destination="@id/nav_car1f" />
-        <action
-            android:id="@+id/action_nav_car_to_nav_car1f3"
-            app:destination="@id/nav_car1f" />
     </fragment>
 
     <fragment
@@ -118,13 +112,58 @@
         android:id="@+id/nav_toegye"
         android:name="com.example.myapplication.ui.toegye.ToegyeFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_toegye" />
+        tools:layout="@layout/fragment_toegye" >
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye1f"
+            app:destination="@id/nav_toegye1f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye2f"
+            app:destination="@id/nav_toegye2f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye3f"
+            app:destination="@id/nav_toegye3f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye4f"
+            app:destination="@id/nav_toegye4f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye5f"
+            app:destination="@id/nav_toegye5f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye6f"
+            app:destination="@id/nav_toegye6f" />
+        <action
+            android:id="@+id/action_nav_toegye_to_nav_toegye7f"
+            app:destination="@id/nav_toegye7f" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_yulgok"
         android:name="com.example.myapplication.ui.yulgok.YulgokFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_yulgok" />
+        tools:layout="@layout/fragment_yulgok" >
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok6f"
+            app:destination="@id/nav_yulgok6f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok3f"
+            app:destination="@id/nav_yulgok3f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok4f"
+            app:destination="@id/nav_yulgok4f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok1f"
+            app:destination="@id/nav_yulgok1f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok2f"
+            app:destination="@id/nav_yulgok2f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok5f"
+            app:destination="@id/nav_yulgok5f" />
+        <action
+            android:id="@+id/action_nav_yulgok_to_nav_yulgok7f"
+            app:destination="@id/nav_yulgok7f" />
+    </fragment>
+
     <fragment
         android:id="@+id/nav_car1f"
         android:name="com.example.myapplication.ui.car.Car1fFragment"
@@ -155,5 +194,81 @@
         android:name="com.example.myapplication.ui.car.Car7fFragment"
         android:label="@string/nav_header_title"
         tools:layout="@layout/fragment_car7f" />
+
+
+
+    <fragment
+        android:id="@+id/nav_yulgok1f"
+        android:name="com.example.myapplication.ui.toegye.Toegye1fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok1f" />
+    <fragment
+        android:id="@+id/nav_yulgok2f"
+        android:name="com.example.myapplication.ui.toegye.Toegye2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok2f" />
+    <fragment
+        android:id="@+id/nav_yulgok3f"
+        android:name="com.example.myapplication.ui.toegye.Toegye3fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok3f" />
+    <fragment
+        android:id="@+id/nav_yulgok4f"
+        android:name="com.example.myapplication.ui.toegye.Toegye4fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok4f" />
+    <fragment
+        android:id="@+id/nav_yulgok5f"
+        android:name="com.example.myapplication.ui.toegye.Toegye5fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok5f" />
+    <fragment
+        android:id="@+id/nav_yulgok6f"
+        android:name="com.example.myapplication.ui.toegye.Toegye6fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok6f" />
+    <fragment
+        android:id="@+id/nav_yulgok7f"
+        android:name="com.example.myapplication.ui.toegye.Toegye7fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok7f" />
+
+
+
+    <fragment
+        android:id="@+id/nav_toegye1f"
+        android:name="com.example.myapplication.ui.toegye.Toegye7fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok1f" />
+    <fragment
+        android:id="@+id/nav_toegye2f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok2f" />
+    <fragment
+        android:id="@+id/nav_toegye3f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok3fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok3f" />
+    <fragment
+        android:id="@+id/nav_toegye4f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok4fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok4f" />
+    <fragment
+        android:id="@+id/nav_toegye5f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok5fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok5f" />
+    <fragment
+        android:id="@+id/nav_toegye6f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok6fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok6f" />
+    <fragment
+        android:id="@+id/nav_toegye7f"
+        android:name="com.example.myapplication.ui.yulgok.Yulgok7fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_yulgok7f" />
 
 </navigation>
