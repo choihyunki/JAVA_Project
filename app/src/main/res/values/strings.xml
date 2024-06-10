@@ -25,6 +25,8 @@
     <string name="menu_sooam">수암관\n</string>
     <string name="Idx">202030108 김찬규\n202130131 최원재\n202130132 염재현\n202130133 최현기</string>
     <string name="todo">TODO</string>
+
+    <!--자동차관-->
     <string name="car_1f">자동차관1층</string>
     <string name="car_3f">자동차관3층</string>
     <string name="car_4f">자동차관4층</string>
@@ -32,6 +34,7 @@
     <string name="car_6f">자동차관6층</string>
     <string name="car_7f">자동차관7층</string>
 
+    <!--율곡관-->
     <string name="yulgok_1f">율곡관1층</string>
     <string name="yulgok_2f">율곡관2층</string>
     <string name="yulgok_3f">율곡관3층</string>
@@ -40,6 +43,7 @@
     <string name="yulgok_6f">율곡관6층</string>
     <string name="yulgok_7f">율곡관7층</string>
 
+    <!--퇴계관-->
     <string name="toegye_1f">퇴계관1층</string>
     <string name="toegye_2f">퇴계관2층</string>
     <string name="toegye_3f">퇴계관3층</string>
@@ -49,14 +53,17 @@
     <string name="toegye_7f">퇴계관7층</string>
     <string name="home">홈\n</string>
 
+    <!--자동차관1층-->
     <string name="string_car1f_1">①강의실</string>
     <string name="string_car1f_2">②L0104 강의실</string>
     <string name="string_car1f_3">③차고</string>
 
+    <!--자동차관3층-->
     <string name="string_car3f_1">①L0301 강의실</string>
     <string name="string_car3f_2">②xEV실습실</string>
     <string name="string_car3f_3">③차고 및 실습실</string>
 
+    <!--자동차관4층-->
     <string name="string_car4f_1">①교수연구실</string>
     <string name="string_car4f_2">②핵심융합대학</string>
     <string name="string_car4f_3">③미래자동차\n학부관리실</string>
@@ -69,6 +76,7 @@
     <string name="string_car4f_10">⑩엔진실습실L0407</string>
     <string name="string_car4f_11">⑪강의실L0401</string>
 
+    <!--자동차관5층-->
     <string name="string_car5f_1">①PBL강의실L0515</string>
     <string name="string_car5f_2">②PBL강의실L0513</string>
     <string name="string_car5f_3">③미래자동차스튜디오\nL0507</string>
@@ -77,6 +85,7 @@
     <string name="string_car5f_6">⑥알파프로젝트룸\nL0501</string>
     <string name="string_car5f_7">⑦교수연구실</string>
 
+    <!--자동차관6층-->
     <string name="string_car6f_1">①강의실\nL0602</string>
     <string name="string_car6f_2">②강의실\nL0610</string>
     <string name="string_car6f_3">③상담실</string>
@@ -87,6 +96,7 @@
     <string name="string_car6f_8">⑧자율주행실습실\nL0608</string>
     <string name="string_car6f_9">⑨3D프린터실습실\nL0605</string>
 
+<!--자동차관7층-->
     <string name="string_car7f_1">①강의실\nL0702</string>
     <string name="string_car7f_2">②평생지원팀\nL0709</string>
     <string name="string_car7f_3">③실습재료실\nL0719</string>
@@ -96,6 +106,212 @@
     <string name="string_car7f_7">⑦강의실\nL0707</string>
     <string name="string_car7f_8">⑧강의실\nL0705</string>
     <string name="string_car7f_9">⑨강의실\nL0701</string>
+
+    <!--퇴계관1층-->
+    <string name="string_toegye1f_1">①교양강의실\nE0101</string>
+    <string name="string_toegye1f_2">②합동강의실\nE0107</string>
+    <string name="string_toegye1f_3">③합동강의실\nE0111</string>
+    <string name="string_toegye1f_4">④대림대학보사</string>
+    <string name="string_toegye1f_5">⑤반도체부품\n실습실</string>
+    <string name="string_toegye1f_6">⑥컴퓨터\n유지보수실</string>
+    <string name="string_toegye1f_7">⑦EMC기술\n교육센터</string>
+    <string name="string_toegye1f_8">⑧UTM실</string>
+
+    <!--퇴계관2층-->
+    <string name="string_toegye2f_1">①토목캐드1</string>
+    <string name="string_toegye2f_2">②토목캐드2</string>
+    <string name="string_toegye2f_3">③측량기자재실</string>
+    <string name="string_toegye2f_4">④토목금융실험실</string>
+    <string name="string_toegye2f_5">⑤임상피학\n실습실</string>
+    <string name="string_toegye2f_6">⑥보건의료행정과\n관리실</string>
+    <string name="string_toegye2f_7">⑦강의실\nE0225</string>
+    <string name="string_toegye2f_8">⑧강의실\nE0221</string>
+    <string name="string_toegye2f_9">⑨강의실\nE0217</string>
+    <string name="string_toegye2f_10">⑩토목환경과\n관리실</string>
+    <string name="string_toegye2f_11">⑪교수연구실</string>
+    <string name="string_toegye2f_12">⑫교수연구실</string>
+    <string name="string_toegye2f_13">⑬교수연구실</string>
+    <string name="string_toegye2f_14">⑭교수연구실</string>
+    <string name="string_toegye2f_15">⑮교수연구실</string>
+
+    <!--퇴계관3층-->
+    <string name="string_toegye3f_1">①데이터분석실\nE0302</string>
+    <string name="string_toegye3f_2">②실습재료실\nE0303</string>
+    <string name="string_toegye3f_3">③보건의료강의실</string>
+    <string name="string_toegye3f_4">④의무기록정보\n실습실E0323</string>
+    <string name="string_toegye3f_5">⑤의료정보전산\n실습실E0322</string>
+    <string name="string_toegye3f_6">⑥보건의료행정과\nE0328 </string>
+    <string name="string_toegye3f_7">⑦경영지원PBL실\nE0329</string>
+    <string name="string_toegye3f_8">⑧비즈니스실(경영)\nE0325</string>
+    <string name="string_toegye3f_9">⑨경영세미나실\nE0321</string>
+    <string name="string_toegye3f_10">⑩강의실\nE0317</string>
+    <string name="string_toegye3f_11">⑪교수연구실</string>
+    <string name="string_toegye3f_12">⑫교수연구실</string>
+    <string name="string_toegye3f_13">⑬교수연구실</string>
+    <string name="string_toegye3f_14">⑭교수연구실</string>
+    <string name="string_toegye3f_15">⑮보건안전학과\nE0301</string>
+
+    <!--퇴계관4층-->
+    <string name="string_toegye4f_1">①외래교수실\nE0401</string>
+    <string name="string_toegye4f_2">②교양강의실\nE0402</string>
+    <string name="string_toegye4f_3">③합동강의실\nE0410</string>
+    <string name="string_toegye4f_4">④프레젠테이션실\nE0418</string>
+    <string name="string_toegye4f_5">⑤비즈니스상담\n실습실E0424</string>
+    <string name="string_toegye4f_6">⑥경영정보실</string>
+    <string name="string_toegye4f_7">⑦경영학과관리실\nE0419</string>
+    <string name="string_toegye4f_8">⑧교수연구실</string>
+    <string name="string_toegye4f_9">⑨창의경영실\nE0417</string>
+    <string name="string_toegye4f_10">⑩English\nLounge3</string>
+    <string name="string_toegye4f_11">⑪교양학사교양\n직업교육센터</string>
+    <string name="string_toegye4f_12">⑫교양직업교육\n센터장E0406</string>
+    <string name="string_toegye4f_13">⑬교양기자재실\nE0409</string>
+    <string name="string_toegye4f_14">⑭외래교수실\nE0401</string>
+
+    <!--퇴계관5층-->
+    <string name="string_toegye5f_1">①컴퓨터그래픽실1\nE0502</string>
+    <string name="string_toegye5f_2">②컴퓨터그래픽실1\nE0508</string>
+    <string name="string_toegye5f_3">③출력실\nE0510</string>
+    <string name="string_toegye5f_4">④실습재료실\nE0516</string>
+    <string name="string_toegye5f_5">⑤ACE스테이션</string>
+    <string name="string_toegye5f_6">⑥강의실\nE0519</string>
+    <string name="string_toegye5f_7">⑦전공디자인실4\nE0523</string>
+    <string name="string_toegye5f_8">⑧전공디자인실3\nE0517</string>
+    <string name="string_toegye5f_9">⑨스타트업\n라운지</string>
+    <string name="string_toegye5f_10">⑩실내디자인학부\nE0513</string>
+    <string name="string_toegye5f_11">⑪전공디자인실2\nE0507</string>
+    <string name="string_toegye5f_12">⑫전공디자인실1\nE0501</string>
+
+    <!--퇴계관6층-->
+    <string name="string_toegye6f_1">①기초디자인실3\nE0606</string>
+    <string name="string_toegye6f_2">②강의실\nE0610</string>
+    <string name="string_toegye6f_3">③강의실\nE0614</string>
+    <string name="string_toegye6f_4">④CAD실\nE0618</string>
+    <string name="string_toegye6f_5">⑤컴퓨터디자인실\nE0623</string>
+    <string name="string_toegye6f_6">⑥건설안전체험실\nE0632</string>
+    <string name="string_toegye6f_7">⑦적산강의실</string>
+    <string name="string_toegye6f_8">⑧의장실\nE0626</string>
+    <string name="string_toegye6f_9">⑨VR영상실습실</string>
+    <string name="string_toegye6f_10">⑩강의실\nE0613</string>
+    <string name="string_toegye6f_11">⑪교수연구실</string>
+    <string name="string_toegye6f_12">⑫강의실\nE0601</string>
+    <string name="string_toegye6f_13">⑬교수연구실</string>
+
+    <!--퇴계관7층-->
+    <string name="string_toegye7f_1">①건축설계제도실2\nE0723</string>
+    <string name="string_toegye7f_2">②건축설계제도실1\nE0717</string>
+    <string name="string_toegye7f_3">③건축과관리실\nE0713</string>
+    <string name="string_toegye7f_4">④프레젠테이션실\nE0711</string>
+    <string name="string_toegye7f_5">⑤교수연구실</string>
+    <string name="string_toegye7f_6">⑥교수연구실</string>
+    <string name="string_toegye7f_7">⑦출력실</string>
+    <string name="string_toegye7f_8">⑧기자재보관실\nE0714</string>
+    <string name="string_toegye7f_9">⑨사진촬영실</string>
+    <string name="string_toegye7f_10">⑩컴퓨터디자인실1\nE0718</string>
+    <string name="string_toegye7f_11">⑪MOCKUP실</string>
+    <string name="string_toegye7f_12">⑫강의실</string>
+
+    <!--율곡관1층-->
+    <string name="string_yulgok1f_1">①창고\nF0130</string>
+    <string name="string_yulgok1f_2">②F0128</string>
+    <string name="string_yulgok1f_3">③ACE FACT ORY3\nF0129</string>
+    <string name="string_yulgok1f_4">④교육운영관리실</string>
+    <string name="string_yulgok1f_5">⑤F0119</string>
+    <string name="string_yulgok1f_6">⑥ACE실\nF0117 </string>
+    <string name="string_yulgok1f_7">⑦반도체 클린룸\n유틸리티실</string>
+
+    <!--율곡관2층-->
+    <string name="string_yulgok2f_1">①글로벌라운지</string>
+    <string name="string_yulgok2f_2">②어학실A</string>
+    <string name="string_yulgok2f_3">③어학실B</string>
+    <string name="string_yulgok2f_4">④어학실C</string>
+    <string name="string_yulgok2f_5">⑤어학실1</string>
+    <string name="string_yulgok2f_6">⑥어학실2</string>
+    <string name="string_yulgok2f_7">⑦어학실3</string>
+    <string name="string_yulgok2f_8">⑧어학실4</string>
+    <string name="string_yulgok2f_9">⑨어학실5</string>
+    <string name="string_yulgok2f_10">⑩글로벌라운지</string>
+    <string name="string_yulgok2f_11">⑪글로벌라운지</string>
+
+    <!--율곡관3층-->
+    <string name="string_yulgok3f_1">①창고</string>
+    <string name="string_yulgok3f_2">②전기전자실습실</string>
+    <string name="string_yulgok3f_3">③전산실습실</string>
+    <string name="string_yulgok3f_4">④계단(퇴계관통로)</string>
+    <string name="string_yulgok3f_5">⑤전력기기실습실</string>
+    <string name="string_yulgok3f_6">⑥강의실\nF0322</string>
+    <string name="string_yulgok3f_7">⑦강의실\nF0318</string>
+    <string name="string_yulgok3f_8">⑧강의실\nF0314</string>
+    <string name="string_yulgok3f_9">⑨F0310</string>
+    <string name="string_yulgok3f_10">⑩시퀀스실습실</string>
+    <string name="string_yulgok3f_11">⑪기초실습실</string>
+    <string name="string_yulgok3f_12">⑫전기과사무실</string>
+    <string name="string_yulgok3f_13">⑬교수연구실</string>
+    <string name="string_yulgok3f_14">⑭교수연구실</string>
+    <string name="string_yulgok3f_15">⑮교수연구실</string>
+
+    <!--율곡관4층-->
+    <string name="string_yulgok4f_1">①F0430</string>
+    <string name="string_yulgok4f_2">②유공압실습실</string>
+    <string name="string_yulgok4f_3">③전기전자실습실</string>
+    <string name="string_yulgok4f_4">④강의실\nF0418</string>
+    <string name="string_yulgok4f_5">⑤강의실\nF0410</string>
+    <string name="string_yulgok4f_6">⑥반도체VR실습실</string>
+    <string name="string_yulgok4f_7">⑦반도체설계실습실</string>
+    <string name="string_yulgok4f_8">⑧반도체학과사무실</string>
+    <string name="string_yulgok4f_9">⑨ENGLISHLOUNGE</string>
+    <string name="string_yulgok4f_10">⑩교수연구실</string>
+    <string name="string_yulgok4f_11">⑪교수연구실</string>
+    <string name="string_yulgok4f_12">⑫교수연구실</string>
+    <string name="string_yulgok4f_13">⑬교수연구실</string>
+    <string name="string_yulgok4f_14">⑭교수연구실</string>
+    <string name="string_yulgok4f_15">⑮교수연구실</string>
+
+    <!--율곡관5층-->
+    <string name="string_yulgok5f_1">①강의실</string>
+    <string name="string_yulgok5f_2">②전기전자프로젝트\n실습실</string>
+    <string name="string_yulgok5f_3">③자동차기구 및\n전산응용실</string>
+    <string name="string_yulgok5f_4">④CAD실</string>
+    <string name="string_yulgok5f_5">⑤실습재료실</string>
+    <string name="string_yulgok5f_6">⑥창고</string>
+    <string name="string_yulgok5f_7">⑦산업응용전자\n실습실</string>
+    <string name="string_yulgok5f_8">⑧시퀀스PLC응용\n실습실</string>
+    <string name="string_yulgok5f_9">⑨도재어응용실습실</string>
+    <string name="string_yulgok5f_10">⑩F0507</string>
+    <string name="string_yulgok5f_11">⑪자동화시스템\n제어응용실습실</string>
+    <string name="string_yulgok5f_12">⑫강의실\nF0513</string>
+    <string name="string_yulgok5f_13">⑬로봇자동차공학과\n사무실</string>
+    <string name="string_yulgok5f_14">⑭센서PLC실습실</string>
+    <string name="string_yulgok5f_15">⑮로봇HNS실습실</string>
+
+    <!--율곡관6층-->
+    <string name="string_yulgok6f_1">①여자탈의실</string>
+    <string name="string_yulgok6f_2">②창고</string>
+    <string name="string_yulgok6f_3">③카페바리안</string>
+    <string name="string_yulgok6f_4">④제과제빵과</string>
+    <string name="string_yulgok6f_5">⑤컴퓨터실</string>
+    <string name="string_yulgok6f_6">⑥BAKING1</string>
+    <string name="string_yulgok6f_7">⑦BAKING2</string>
+    <string name="string_yulgok6f_8">⑧카페IPL</string>
+    <string name="string_yulgok6f_9">⑨베이킹4</string>
+    <string name="string_yulgok6f_10">⑩베이킹(BAKING)/n및 워크인</string>
+    <string name="string_yulgok6f_11">⑪워크인</string>
+    <string name="string_yulgok6f_12">⑫남자탈의실</string>
+    <string name="string_yulgok6f_13">⑬베이킹 및\n페이안프리</string>
+    <string name="string_yulgok6f_14">⑭교수연구실</string>
+    <string name="string_yulgok6f_15">⑮교수연구실</string>
+
+    <!--율곡관7층-->
+    <string name="string_yulgok7f_1">①강의실</string>
+    <string name="string_yulgok7f_2">②호텔조리학과\n사무실</string>
+    <string name="string_yulgok7f_3">③키친5</string>
+    <string name="string_yulgok7f_4">④키친4</string>
+    <string name="string_yulgok7f_5">⑤키친3</string>
+    <string name="string_yulgok7f_6">⑥키친2</string>
+    <string name="string_yulgok7f_7">⑦키친</string>
+    <string name="string_yulgok7f_8">⑧남자탈의실</string>
+    <string name="string_yulgok7f_9">⑨여자탈의실</string>
+    <string name="string_yulgok7f_10">⑩워크인2</string>
+
 
     <string name="center_1f">학생본부1층</string>
     <string name="center_2f">학생본부2층</string>
