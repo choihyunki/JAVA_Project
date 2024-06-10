@@ -48,4 +48,71 @@
     <string name="toegye_6f">퇴계관6층</string>
     <string name="toegye_7f">퇴계관7층</string>
     <string name="home">홈\n</string>
+
+    <string name="string_car1f_1">①강의실</string>
+    <string name="string_car1f_2">②L0104 강의실</string>
+    <string name="string_car1f_3">③차고</string>
+
+    <string name="string_car3f_1">①L0301 강의실</string>
+    <string name="string_car3f_2">②xEV실습실</string>
+    <string name="string_car3f_3">③차고 및 실습실</string>
+
+    <string name="string_car4f_1">①교수연구실</string>
+    <string name="string_car4f_2">②핵심융합대학</string>
+    <string name="string_car4f_3">③미래자동차\n학부관리실</string>
+    <string name="string_car4f_4">④자동차공학과</string>
+    <string name="string_car4f_5">⑤교수연구실</string>
+    <string name="string_car4f_6">⑥강의실L0417</string>
+    <string name="string_car4f_7">⑦강의실L0413</string>
+    <string name="string_car4f_8">⑧COSS STATION</string>
+    <string name="string_car4f_9">⑨교수연구실L0512</string>
+    <string name="string_car4f_10">⑩엔진실습실L0407</string>
+    <string name="string_car4f_11">⑪강의실L0401</string>
+
+    <string name="string_car5f_1">①PBL강의실L0515</string>
+    <string name="string_car5f_2">②PBL강의실L0513</string>
+    <string name="string_car5f_3">③미래자동차스튜디오\nL0507</string>
+    <string name="string_car5f_4">④세미나실</string>
+    <string name="string_car5f_5">⑤카티아실습실</string>
+    <string name="string_car5f_6">⑥알파프로젝트룸\nL0501</string>
+    <string name="string_car5f_7">⑦교수연구실</string>
+
+    <string name="string_car6f_1">①강의실\nL0602</string>
+    <string name="string_car6f_2">②강의실\nL0610</string>
+    <string name="string_car6f_3">③상담실</string>
+    <string name="string_car6f_4">④학적자료실 </string>
+    <string name="string_car6f_5">⑤혁신융합대학\n미래자동차사업단\nL0617</string>
+    <string name="string_car6f_6">⑥전기전자\n제어실습실</string>
+    <string name="string_car6f_7">⑦섀시실습실\nL0609</string>
+    <string name="string_car6f_8">⑧자율주행실습실\nL0608</string>
+    <string name="string_car6f_9">⑨3D프린터실습실\nL0605</string>
+
+    <string name="string_car7f_1">①강의실\nL0702</string>
+    <string name="string_car7f_2">②평생지원팀\nL0709</string>
+    <string name="string_car7f_3">③실습재료실\nL0719</string>
+    <string name="string_car7f_4">④학습자휴게실\nL0717 </string>
+    <string name="string_car7f_5">⑤평생교육원장\nL0715</string>
+    <string name="string_car7f_6">⑥강사휴게실\nL0713</string>
+    <string name="string_car7f_7">⑦강의실\nL0707</string>
+    <string name="string_car7f_8">⑧강의실\nL0705</string>
+    <string name="string_car7f_9">⑨강의실\nL0701</string>
+
+    <string name="center_1f">학생본부1층</string>
+    <string name="center_2f">학생본부2층</string>
+    <string name="center_3f">학생본부3층</string>
+    <string name="center_4f">학생본부4층</string>
+
+    <string name="dasan_1f">다산관1층</string>
+    <string name="dasan_2f">다산관2층</string>
+    <string name="dasan_3f">다산관3층</string>
+    <string name="dasan_4f">다산관4층</string>
+    <string name="dasan_5f">다산관5층</string>
+
+    <string name="sooam_1f">수암관1층</string>
+    <string name="sooam_2f">수암관2층</string>
+    <string name="sooam_3f">수암관3층</string>
+    <string name="sooam_4f">수암관4층</string>
+    <string name="sooam_5f">수암관5층</string>
+
+
 </resources>

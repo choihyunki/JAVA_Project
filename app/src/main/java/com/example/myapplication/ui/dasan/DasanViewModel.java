@@ -10,7 +10,7 @@ public class DasanViewModel extends ViewModel {
 
     public DasanViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dasan fragment");
+        mText.setValue("다산관");
     }
 
     public LiveData<String> getText() {

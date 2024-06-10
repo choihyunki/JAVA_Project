@@ -10,7 +10,7 @@ public class SooamViewModel extends ViewModel {
 
     public SooamViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Sooam fragment");
+        mText.setValue("수암관");
     }
 
     public LiveData<String> getText() {

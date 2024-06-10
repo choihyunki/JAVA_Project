@@ -10,7 +10,7 @@ public class CenterViewModel extends ViewModel {
 
     public CenterViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Center fragment");
+        mText.setValue("학생본부");
     }
 
     public LiveData<String> getText() {
