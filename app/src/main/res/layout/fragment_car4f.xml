@@ -20,7 +20,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="290dp" />
 
-    <com.example.myapplication.ui.car.CarImageView
+    <ImageView
         android:id="@+id/carimage_4f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +28,16 @@
         tools:ignore="MissingConstraints"
         android:contentDescription="@string/todo" />
 
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/carimage_4f"
+        app:layout_constraintStart_toStartOf="@id/carimage_4f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/car4f_1"

@@ -1,32 +1,27 @@
 package com.example.myapplication.ui.car;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import com.example.myapplication.R;
 public class Car4fFragment extends Fragment {
-    private CarImageView carImageView;
+    private ImageView overlayImageView;
     private TextView lastClickedTextView;
-
-    private final float[][] startCoordinates = {
-            {350, 560},
-            {120, 450}
-    };
-
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_car4f, container, false);
 
-        carImageView = view.findViewById(R.id.carimage_4f);
+        overlayImageView = view.findViewById(R.id.overlay_image);
 
         TextView textView1 = view.findViewById(R.id.car4f_1);
         TextView textView2 = view.findViewById(R.id.car4f_2);
@@ -40,97 +35,81 @@ public class Car4fFragment extends Fragment {
         TextView textView10 = view.findViewById(R.id.car4f_10);
         TextView textView11 = view.findViewById(R.id.car4f_11);
 
-        textView1.setOnClickListener(v -> handleTextViewClick(textView1));
-        textView2.setOnClickListener(v -> handleTextViewClick(textView2));
-        textView3.setOnClickListener(v -> handleTextViewClick(textView3));
-        textView4.setOnClickListener(v -> handleTextViewClick(textView4));
-        textView5.setOnClickListener(v -> handleTextViewClick(textView5));
-        textView6.setOnClickListener(v -> handleTextViewClick(textView6));
-        textView7.setOnClickListener(v -> handleTextViewClick(textView7));
-        textView8.setOnClickListener(v -> handleTextViewClick(textView8));
-        textView9.setOnClickListener(v -> handleTextViewClick(textView9));
-        textView10.setOnClickListener(v -> handleTextViewClick(textView10));
-        textView11.setOnClickListener(v -> handleTextViewClick(textView11));
 
-
+        textView1.setOnClickListener(v -> handleTextViewClick(textView1, R.drawable.ic_maker)); // Replace R.drawable.image1 with your actual image
+        textView2.setOnClickListener(v -> handleTextViewClick(textView2, R.drawable.ic_maker)); // Replace R.drawable.image2 with your actual image
+        textView3.setOnClickListener(v -> handleTextViewClick(textView3, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView4.setOnClickListener(v -> handleTextViewClick(textView4, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView5.setOnClickListener(v -> handleTextViewClick(textView5, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView6.setOnClickListener(v -> handleTextViewClick(textView6, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView7.setOnClickListener(v -> handleTextViewClick(textView7, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView8.setOnClickListener(v -> handleTextViewClick(textView8, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView9.setOnClickListener(v -> handleTextViewClick(textView9, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView10.setOnClickListener(v -> handleTextViewClick(textView10, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
+        textView11.setOnClickListener(v -> handleTextViewClick(textView11, R.drawable.ic_maker)); // Replace R.drawable.image3 with your actual image
 
 
         return view;
     }
-    private void handleTextViewClick(TextView textView) {
 
-        float[] midPoint1, midPoint2, endPoint;
-
+    private void handleTextViewClick(TextView textView, int imageResId) {
         if (lastClickedTextView != null && lastClickedTextView == textView) {
-            carImageView.clearMarker();
-            carImageView.clearPaths();
+            overlayImageView.setVisibility(View.GONE);
             lastClickedTextView = null;
-            return;
-        }
-
-        if (textView.getId() == R.id.car4f_1) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{700, 450};
-            endPoint = new float[]{700, 300};
-        } else if (textView.getId() == R.id.car4f_2) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{850, 450};
-            endPoint = new float[]{850, 300};
-        } else if (textView.getId() == R.id.car4f_3) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_4) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_5) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_6) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_7) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_8) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_9) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_10) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
-        }else if (textView.getId() == R.id.car4f_11) {
-            midPoint1 = new float[]{350, 450};
-            midPoint2 = new float[]{350, 450};
-            endPoint = new float[]{800, 450};
         } else {
-            return;
+            // Set the image resource
+            overlayImageView.setImageResource(imageResId);
+
+            // Get the layout parameters of overlayImageView
+            ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) overlayImageView.getLayoutParams();
+
+            // Set the margins to move overlayImageView to the desired coordinates
+            if (textView.getId() == R.id.car4f_1) {
+                params.leftMargin = 230;
+                params.topMargin = 220;
+            } else if (textView.getId() == R.id.car4f_2) {
+                params.leftMargin = 325;
+                params.topMargin = 220;
+            } else if (textView.getId() == R.id.car4f_3) {
+                params.leftMargin = 450;
+                params.topMargin = 220;
+            } else if (textView.getId() == R.id.car4f_4) {
+                params.leftMargin = 560;
+                params.topMargin = 220;
+            } else if (textView.getId() == R.id.car4f_5) {
+                params.leftMargin = 660;
+                params.topMargin = 220;
+            } else if (textView.getId() == R.id.car4f_6) {
+                params.leftMargin = 900;
+                params.topMargin = 520;
+            } else if (textView.getId() == R.id.car4f_7) {
+                params.leftMargin = 800;
+                params.topMargin = 520;
+            } else if (textView.getId() == R.id.car4f_8) {
+                params.leftMargin = 570;
+                params.topMargin = 520;
+            } else if (textView.getId() == R.id.car4f_9) {
+                params.leftMargin = 460;
+                params.topMargin = 520;
+            } else if (textView.getId() == R.id.car4f_10) {
+                params.leftMargin = 325;
+                params.topMargin = 520;
+            } else if (textView.getId() == R.id.car4f_11) {
+                params.leftMargin = 100;
+                params.topMargin = 570;
+            }
+
+
+            // Add more conditions as needed for other TextViews
+
+            // Apply the modified layout parameters
+            overlayImageView.setLayoutParams(params);
+
+            // Make overlayImageView visible
+            overlayImageView.setVisibility(View.VISIBLE);
+
+            // Set the last clicked textView
+            lastClickedTextView = textView;
         }
-
-        carImageView.clearPaths();
-
-        for (float[] startCoordinate : startCoordinates) {
-            float[] intermediatePointsX = {midPoint1[0], midPoint2[0]};
-            float[] intermediatePointsY = {midPoint1[1], midPoint2[1]};
-
-            drawRoute(startCoordinate[0], startCoordinate[1], intermediatePointsX, intermediatePointsY, endPoint[0], endPoint[1]);
-        }
-
-        carImageView.clearMarker();
-        carImageView.addMarker(endPoint[0], endPoint[1]);
-        lastClickedTextView = textView;
-
-    }
-    private void drawRoute(float startX, float startY, float[] intermediatePointsX, float[] intermediatePointsY, float destinationX, float destinationY) {
-        carImageView.addPolyline(startX, startY, intermediatePointsX, intermediatePointsY, destinationX, destinationY, Color.RED);
     }
 }
