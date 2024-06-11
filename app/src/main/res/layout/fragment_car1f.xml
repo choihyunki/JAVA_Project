@@ -22,13 +22,15 @@
 
 
 
-    <ImageView
+    <com.example.myapplication.ui.car.CarImageView
         android:id="@+id/carimage_1f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/carimage_1f"
         tools:ignore="MissingConstraints"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:id="@+id/car1f_1"
@@ -41,7 +43,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car1f_2"
@@ -53,7 +57,9 @@
         app:layout_constraintTop_toBottomOf="@id/carimage_1f"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteY="412dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car1f_3"
@@ -67,6 +73,8 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
