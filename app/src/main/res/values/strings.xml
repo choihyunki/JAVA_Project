@@ -103,7 +103,7 @@
     <string name="string_car7f_4">④학습자휴게실\nL0717 </string>
     <string name="string_car7f_5">⑤평생교육원장\nL0715</string>
     <string name="string_car7f_6">⑥강사휴게실\nL0713</string>
-    <string name="string_car7f_7">⑦강의실\nL0707</string>
+    <string name="string_car7f_7">⑦강의실\nL0709</string>
     <string name="string_car7f_8">⑧강의실\nL0705</string>
     <string name="string_car7f_9">⑨강의실\nL0701</string>
 
@@ -230,7 +230,6 @@
     <string name="string_yulgok2f_8">⑧어학실4</string>
     <string name="string_yulgok2f_9">⑨어학실5</string>
     <string name="string_yulgok2f_10">⑩글로벌라운지</string>
-    <string name="string_yulgok2f_11">⑪글로벌라운지</string>
 
     <!--율곡관3층-->
     <string name="string_yulgok3f_1">①창고</string>
@@ -293,7 +292,7 @@
     <string name="string_yulgok6f_7">⑦BAKING2</string>
     <string name="string_yulgok6f_8">⑧카페IPL</string>
     <string name="string_yulgok6f_9">⑨베이킹4</string>
-    <string name="string_yulgok6f_10">⑩베이킹(BAKING)/n및 워크인</string>
+    <string name="string_yulgok6f_10">⑩베이킹(BAKING)\n및 워크인</string>
     <string name="string_yulgok6f_11">⑪워크인</string>
     <string name="string_yulgok6f_12">⑫남자탈의실</string>
     <string name="string_yulgok6f_13">⑬베이킹 및\n페이안프리</string>
@@ -311,6 +310,8 @@
     <string name="string_yulgok7f_8">⑧남자탈의실</string>
     <string name="string_yulgok7f_9">⑨여자탈의실</string>
     <string name="string_yulgok7f_10">⑩워크인2</string>
+    <string name="string_yulgok7f_11">⑪교수연구실</string>
+
 
 
     <string name="center_1f">학생본부1층</string>

@@ -20,11 +20,24 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="290dp" />
 
+
+
     <ImageView
         android:id="@+id/carimage_5f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/carimage_5f"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/carimage_5f"
+        app:layout_constraintStart_toStartOf="@id/carimage_5f"
+        android:visibility="gone"
         tools:ignore="MissingConstraints"
         android:contentDescription="@string/todo" />
 
@@ -39,7 +52,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_2"
@@ -51,7 +66,9 @@
         app:layout_constraintTop_toBottomOf="@id/carimage_5f"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteY="412dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_3"
@@ -65,7 +82,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_4"
@@ -79,7 +98,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_5"
@@ -93,7 +114,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_6"
@@ -107,7 +130,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car5f_7"
@@ -121,7 +146,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_5f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
