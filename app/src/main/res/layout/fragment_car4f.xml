@@ -20,7 +20,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="290dp" />
 
-    <ImageView
+    <com.example.myapplication.ui.car.CarImageView
         android:id="@+id/carimage_4f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +40,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car4f_2"
@@ -52,7 +54,9 @@
         app:layout_constraintTop_toBottomOf="@id/carimage_4f"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteY="412dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car4f_3"
@@ -66,7 +70,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car4f_4"
@@ -80,7 +86,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/car4f_5"
@@ -94,7 +102,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_6"
         android:layout_width="wrap_content"
@@ -107,7 +117,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_7"
         android:layout_width="wrap_content"
@@ -120,7 +132,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_8"
         android:layout_width="wrap_content"
@@ -133,7 +147,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_9"
         android:layout_width="wrap_content"
@@ -146,7 +162,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_10"
         android:layout_width="wrap_content"
@@ -159,7 +177,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/car4f_11"
         android:layout_width="wrap_content"
@@ -172,7 +192,9 @@
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_4f_1"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="722dp" />
+        tools:layout_editor_absoluteY="722dp"
+        android:clickable="true"
+        android:focusable="true" />
 
 
 
