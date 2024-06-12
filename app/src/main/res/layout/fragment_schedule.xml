@@ -1,14 +1,133 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.SchedulemainFragment">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="스케쥴"
-    tools:ignore="HardcodedText,MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/schedule1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/schedule3"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule4"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule1"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule5"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule2"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule6"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule3"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule7"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule4"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule8"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule5"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule9"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule6"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule10"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule7"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule11"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule8"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule12"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule9"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule1"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule10"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/schedule12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schedule2"
+            android:background="@android:color/transparent"
+
+            app:layout_constraintTop_toBottomOf="@id/schedule11"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
