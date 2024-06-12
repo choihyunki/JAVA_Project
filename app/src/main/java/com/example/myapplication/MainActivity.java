@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
     }
+
+    public boolean onSupportNavigateUp() {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        return NavigationUI.navigateUp(navController, mAppBarConfiguration) || super.onSupportNavigateUp();
+    }
+
     public void onHomeButtonClick(View view) {
         // 홈 버튼 클릭 시 실행될 동작을 여기에 추가
         // 예: 메인 화면으로 이동하는 코드
@@ -55,11 +61,8 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
+
+
+
 
 }

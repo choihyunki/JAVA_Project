@@ -10,7 +10,7 @@ public class JunsanViewModel extends ViewModel {
 
     public JunsanViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is junsan fragment");
+        mText.setValue("전산관");
     }
 
     public LiveData<String> getText() {

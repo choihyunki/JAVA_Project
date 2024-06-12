@@ -10,7 +10,7 @@ public class LimgokViewModel extends ViewModel {
 
     public LimgokViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Limgok fragment");
+        mText.setValue("임곡관");
     }
 
     public LiveData<String> getText() {

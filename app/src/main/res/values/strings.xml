@@ -331,5 +331,160 @@
     <string name="sooam_4f">수암관4층</string>
     <string name="sooam_5f">수암관5층</string>
 
+    <!--전산관1층-->
+    <string name="string_junsan1f_1">①조리실습 준비실 J0122</string>
+    <string name="string_junsan1f_2">②실습재료실 J0103</string>
+    <string name="string_junsan1f_3">③키친6 J0167 </string>
+    <string name="string_junsan1f_4">④창고 </string>
+    <string name="string_junsan1f_5">⑤발간실 </string>
+    <string name="string_junsan1f_6">⑥조리실습실 J0158 </string>
+    <string name="string_junsan1f_7">⑦창업지원실 </string>
+    <string name="string_junsan1f_8">⑧창업지원실 </string>
+    <string name="string_junsan1f_9">⑨창업지원실 </string>
+
+    <!--전산관2층-->
+    <string name="string_junsan2f_1">①프로그래밍1실 J0225</string>
+    <string name="string_junsan2f_2">②프로그래밍2실 J0226</string>
+    <string name="string_junsan2f_3">③서버실 </string>
+    <string name="string_junsan2f_4">④교수연구실 </string>
+    <string name="string_junsan2f_5">⑤교수연구실 </string>
+    <string name="string_junsan2f_6">⑥교수연구실 J0158 </string>
+    <string name="string_junsan2f_7">⑦교수연구실</string>
+    <string name="string_junsan2f_8">⑧기자재보관실 </string>
+    <string name="string_junsan2f_9">⑨프로잭트실 J0224</string>
+    <string name="string_junsan2f_10">⑩교양강의실 </string>
+    <string name="string_junsan2f_11">⑪교수연구실 J0158 </string>
+    <string name="string_junsan2f_12">⑫프로그래밍1 J0201</string>
+    <string name="string_junsan2f_13">⑬교양강의실 J0211</string>
+    <string name="string_junsan2f_14">⑭교양강의실 J0212</string>
+    <string name="string_junsan2f_15">⑮교양강의실 J0211</string>
+    <string name="string_junsan2f_16">⑯교양강의실 J0212</string>
+
+    <!--전산관3층-->
+    <string name="string_junsan3f_1">①소프트웨어개발실</string>
+    <string name="string_junsan3f_2">②프로젝트실3 J0326</string>
+    <string name="string_junsan3f_3">③프로젝트실2 J0325 </string>
+    <string name="string_junsan3f_4">④컴퓨터정보학부 사무실 및 관리실 </string>
+
+    <!--전산관4층-->
+    <string name="string_junsan4f_1">①프로그래밍실습실2 J0404</string>
+    <string name="string_junsan4f_2">②프로그래밍실습실1 J0403</string>
+    <string name="string_junsan4f_3">③세미나실 J0421 </string>
+    <string name="string_junsan4f_4">④SMART STATION </string>
+
+    <!--전산관5층-->
+    <string name="string_junsan5f_1">①테라스</string>
+    <string name="string_junsan5f_2">②교수연구실</string>
+    <string name="string_junsan5f_3">③교수연구실 </string>
+    <string name="string_junsan5f_4">④교수연구실 </string>
+    <string name="string_junsan5f_5">⑤교수연구실 </string>
+    <string name="string_junsan5f_6">⑥모바일실습실2 J0507 </string>
+    <string name="string_junsan5f_7">⑦모바일실습실1 J0506 </string>
+    <string name="string_junsan5f_8">⑧디지털미디어실습실 J0508</string>
+    <string name="string_junsan5f_9">⑨프로잭트실습실 J0509</string>
+    <string name="string_junsan5f_10">⑩교수연구실 J0511 </string>
+
+    <!--학생회관1층-->
+    <string name="string_student1f_1">①식당</string>
+    <string name="string_student1f_2">②편의점</string>
+
+    <!--학생회관2층-->
+    <string name="string_student2f_1">①음악연습실G0202</string>
+    <string name="string_student2f_2">②ccc G0204</string>
+    <string name="string_student2f_3">③RCY G0206 </string>
+    <string name="string_student2f_4">④돈키호테 G0208 </string>
+    <string name="string_student2f_5">⑤사진부 G0210</string>
+    <string name="string_student2f_6">⑥암실 G0211 </string>
+    <string name="string_student2f_7">⑦다목적회의실 G0201</string>
+    <string name="string_student2f_8">⑧노동연합,대학노조 G0203 </string>
+    <string name="string_student2f_9">⑨기자재실 G0205</string>
+    <string name="string_student2f_10">⑩블랙식스 G0207 </string>
+    <string name="string_student2f_11">⑪MENTO G0208 </string>
+    <string name="string_student2f_12">⑫R.I.P Soul G0216</string>
+    <string name="string_student2f_13">⑬Ace콕 G0215</string>
+    <string name="string_student2f_14">⑭테니스부 G0212</string>
+    <string name="string_student2f_15">⑮농구부 G0214</string>
+    <string name="string_student2f_16">⑯ACESG 동아리학생회 G0212</string>
+
+    <!--학생회관3층-->
+    <string name="string_student3f_1">①학생회장실 G0301</string>
+    <string name="string_student3f_2">②총학생회실 G0303</string>
+    <string name="string_student3f_3">③볼링부 G0305 </string>
+    <string name="string_student3f_4">④축구부 G0304 </string>
+    <string name="string_student3f_5">⑤통합공동 훈련센터 G0306</string>
+    <string name="string_student3f_6">⑥영양사실 G0306</string>
+
+    <!--학생회관4층-->
+    <string name="string_student4f_1">①학생회장실 G0401</string>
+    <string name="string_student4f_2">②대의원회 G0403</string>
+    <string name="string_student4f_3">③도담실 G0405 </string>
+    <string name="string_student4f_4">④상담실 </string>
+    <string name="string_student4f_5">⑤국제교류원 상담실 G0407</string>
+
+    <!--학생회관5층-->
+    <string name="string_student5f_1">①학생복지팀 G0501</string>
+    <string name="string_student5f_2">②장학파트 G0503</string>
+    <string name="string_student5f_3">③학생치장 G0505 </string>
+    <string name="string_student5f_4">④용역 </string>
+    <string name="string_student5f_5">⑤미화원 휴게실 </string>
+    <string name="string_student5f_6">⑥미화원 휴게실 </string>
+
+
+    <!--생활관1층-->
+    <string name="string_saenghwal1f_1">①카페베네</string>
+    <string name="string_saenghwal1f_2">②편의점</string>
+    <string name="string_saenghwal1f_3">③테라스 </string>
+
+    <!--생활관2층-->
+    <string name="string_saenghwal2f_1">①IDEA룸1</string>
+    <string name="string_saenghwal2f_2">②IDEA룸2</string>
+    <string name="string_saenghwal2f_3">③IDEA룸3</string>
+    <string name="string_saenghwal2f_4">④IDEA룸4</string>
+    <string name="string_saenghwal2f_5">⑤IDEA룸5</string>
+    <string name="string_saenghwal2f_6">⑥IDEA룸6</string>
+    <string name="string_saenghwal2f_7">⑦테라스</string>
+
+    <!--임곡관1층-->
+    <string name="string_limgok1f_1">①노동조합 H0103</string>
+    <string name="string_limgok1f_2">②강의실 H0105</string>
+    <string name="string_limgok1f_3">③통합공동훈련센터 H0109 </string>
+    <string name="string_limgok1f_4">④통합공동훈련센터 H0113</string>
+    <string name="string_limgok1f_5">⑤프로그래밍실3 H0102 </string>
+    <string name="string_limgok1f_6">⑥H0104 </string>
+    <string name="string_limgok1f_7">⑦H0108 </string>
+    <string name="string_limgok1f_8">⑧집단상담실 H0112 </string>
+    <string name="string_limgok1f_9">⑨학생통합센터 H0114 </string>
+
+    <!--임곡관2층-->
+    <string name="string_limgok2f_1">①취업상담실 H0211</string>
+    <string name="string_limgok2f_2">②취업코칭실 H0205</string>
+    <string name="string_limgok2f_3">③보건실 H0293 </string>
+    <string name="string_limgok2f_4">④취업처장 H0207</string>
+    <string name="string_limgok2f_5">⑤국제교류원팀 H0209 </string>
+    <string name="string_limgok2f_6">⑥세미나실 H0202 </string>
+    <string name="string_limgok2f_7">⑦장애지원센터 H0206</string>
+    <string name="string_limgok2f_8">⑧인권센터 H0208 </string>
+    <string name="string_limgok2f_9">⑨인권센터장 H0212 </string>
+    <string name="string_limgok2f_10">⑩국제교류원장 H0212 </string>
+
+    <string name="junsan_1f">전산관1층</string>
+    <string name="junsan_2f">전산관2층</string>
+    <string name="junsan_3f">전산관3층</string>
+    <string name="junsan_4f">전산관4층</string>
+    <string name="junsan_5f">전산관5층</string>
+
+    <string name="student_1f">학생회관1층</string>
+    <string name="student_2f">학생회관2층</string>
+    <string name="student_3f">학생회관3층</string>
+    <string name="student_4f">학생회관4층</string>
+    <string name="student_5f">학생회관5층</string>
+
+    <string name="limgok_1f">임곡관1층</string>
+    <string name="limgok_2f">임곡관2층</string>
+
+    <string name="saenghwal_1f">생활관1층</string>
+    <string name="saenghwal_2f">생활관2층</string>
+    <string name="logo">LOGO</string>
+
 
 </resources>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -82,19 +82,50 @@
         android:id="@+id/nav_junsan"
         android:name="com.example.myapplication.ui.junsan.JunsanFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_junsan" />
+        tools:layout="@layout/fragment_junsan" >
+        <action
+            android:id="@+id/action_nav_junsan_to_nav_junsan1f"
+            app:destination="@id/nav_junsan1f" />
+        <action
+            android:id="@+id/action_nav_junsan_to_nav_junsan2f"
+            app:destination="@id/nav_junsan2f" />
+        <action
+            android:id="@+id/action_nav_junsan_to_nav_junsan3f"
+            app:destination="@id/nav_junsan3f" />
+        <action
+            android:id="@+id/action_nav_junsan_to_nav_junsan4f"
+            app:destination="@id/nav_junsan4f" />
+        <action
+            android:id="@+id/action_nav_junsan_to_nav_junsan5f"
+            app:destination="@id/nav_junsan5f" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_limgok"
         android:name="com.example.myapplication.ui.limgok.LimgokFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_limgok" />
+        tools:layout="@layout/fragment_limgok" >
+        <action
+            android:id="@+id/action_nav_limgok_to_nav_limgok1f"
+            app:destination="@id/nav_limgok1f" />
+        <action
+            android:id="@+id/action_nav_limgok_to_nav_limgok2f"
+            app:destination="@id/nav_limgok2f" />
+    </fragment>
+
 
     <fragment
         android:id="@+id/nav_saenghwal"
         android:name="com.example.myapplication.ui.saenghwal.SaenghwalFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_saenghwal" />
+        tools:layout="@layout/fragment_saenghwal" >
+        <action
+            android:id="@+id/action_nav_saenghwal_to_nav_saenghwal1f"
+            app:destination="@id/nav_saenghwal1f" />
+        <action
+            android:id="@+id/action_nav_saenghwal_to_nav_saenghwal2f"
+            app:destination="@id/nav_saenghwal2f" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_sooam"
@@ -104,9 +135,25 @@
 
     <fragment
         android:id="@+id/nav_student"
-        android:name="com.example.myapplication.ui.student.StudentFragment"
+        android:name="com.example.myapplication.ui.junsan.JunsanFragment"
         android:label="@string/nav_header_title"
-        tools:layout="@layout/fragment_student" />
+        tools:layout="@layout/fragment_student" >
+        <action
+            android:id="@+id/action_nav_student_to_nav_student1f"
+            app:destination="@id/nav_student1f" />
+        <action
+            android:id="@+id/action_nav_student_to_nav_student2f"
+            app:destination="@id/nav_student2f" />
+        <action
+            android:id="@+id/action_nav_student_to_nav_student3f"
+            app:destination="@id/nav_student3f" />
+        <action
+            android:id="@+id/action_nav_student_to_nav_student4f"
+            app:destination="@id/nav_student4f" />
+        <action
+            android:id="@+id/action_nav_student_to_nav_student5f"
+            app:destination="@id/nav_student5f" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_toegye"
@@ -409,5 +456,80 @@
         android:name="com.example.myapplication.ui.dasan.Dasan5fFragment"
         android:label="@string/nav_header_title"
         tools:layout="@layout/fragment_dasan5f" />
+
+    <fragment
+        android:id="@+id/nav_junsan1f"
+        android:name="com.example.myapplication.ui.junsan.Junsan1fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan1f" />
+    <fragment
+        android:id="@+id/nav_junsan2f"
+        android:name="com.example.myapplication.ui.junsan.Junsan2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan2f" />
+    <fragment
+        android:id="@+id/nav_junsan3f"
+        android:name="com.example.myapplication.ui.junsan.Junsan3fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan3f" />
+    <fragment
+        android:id="@+id/nav_junsan4f"
+        android:name="com.example.myapplication.ui.junsan.Junsan4fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan4f" />
+    <fragment
+        android:id="@+id/nav_junsan5f"
+        android:name="com.example.myapplication.ui.junsan.Junsan5fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_junsan5f" />
+
+    <fragment
+        android:id="@+id/nav_student1f"
+        android:name="com.example.myapplication.ui.student.Student1fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student1f" />
+    <fragment
+        android:id="@+id/nav_student2f"
+        android:name="com.example.myapplication.ui.student.Student2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student2f" />
+    <fragment
+        android:id="@+id/nav_student3f"
+        android:name="com.example.myapplication.ui.student.Student3fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student3f" />
+    <fragment
+        android:id="@+id/nav_student4f"
+        android:name="com.example.myapplication.ui.student.Student4fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student4f" />
+    <fragment
+        android:id="@+id/nav_student5f"
+        android:name="com.example.myapplication.ui.student.Student5fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_student5f" />
+
+    <fragment
+        android:id="@+id/nav_saenghwal1f"
+        android:name="com.example.myapplication.ui.saenghwal.Saenghwal1fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_saenghwal1f" />
+    <fragment
+        android:id="@+id/nav_saenghwal2f"
+        android:name="com.example.myapplication.ui.saenghwal.Saenghwal2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_saenghwal2f" />
+
+    <fragment
+        android:id="@+id/nav_limgok1f"
+        android:name="com.example.myapplication.ui.limgok.Limgok1fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_limgok1f" />
+    <fragment
+        android:id="@+id/nav_limgok2f"
+        android:name="com.example.myapplication.ui.limgok.Limgok2fFragment"
+        android:label="@string/nav_header_title"
+        tools:layout="@layout/fragment_limgok2f" />
+
 
 </navigation>
