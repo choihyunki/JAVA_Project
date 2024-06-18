@@ -66,37 +66,37 @@ public class Car4fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.car4f_1) {
                 params.leftMargin = 230;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car4f_2) {
                 params.leftMargin = 325;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car4f_3) {
                 params.leftMargin = 450;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car4f_4) {
                 params.leftMargin = 560;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car4f_5) {
                 params.leftMargin = 660;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car4f_6) {
                 params.leftMargin = 900;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car4f_7) {
                 params.leftMargin = 800;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car4f_8) {
                 params.leftMargin = 570;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car4f_9) {
                 params.leftMargin = 460;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car4f_10) {
                 params.leftMargin = 325;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car4f_11) {
                 params.leftMargin = 100;
-                params.topMargin = 570;
+                params.topMargin = 420;
             }
 
 

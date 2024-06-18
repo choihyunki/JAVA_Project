@@ -70,40 +70,40 @@ public class Toegye7fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.toegye7f_1) {
                 params.leftMargin = 230;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.toegye7f_2) {
                 params.leftMargin = 340;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.toegye7f_3) {
                 params.leftMargin = 680;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.toegye7f_4) {
                 params.leftMargin = 800;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.toegye7f_5) {
                 params.leftMargin = 920;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.toegye7f_6) {
                 params.leftMargin = 830;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_7) {
                 params.leftMargin = 710;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_8) {
                 params.leftMargin = 640;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_9) {
                 params.leftMargin = 550;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_10) {
                 params.leftMargin = 340;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_11) {
                 params.leftMargin = 240;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye7f_12) {
                 params.leftMargin = 150;
-                params.topMargin = 540;
+                params.topMargin = 440;
             }
 
 

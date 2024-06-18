@@ -70,37 +70,37 @@ public class Yulgok7fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.yulgok7f_1) {
                 params.leftMargin = 740;
-                params.topMargin = 400;
+                params.topMargin = 300;
             } else if (textView.getId() == R.id.yulgok7f_2) {
                 params.leftMargin = 570;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok7f_3) {
                 params.leftMargin = 480;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok7f_4) {
                 params.leftMargin = 570;
-                params.topMargin = 550;
+                params.topMargin = 450;
             } else if (textView.getId() == R.id.yulgok7f_5) {
                 params.leftMargin = 430;
-                params.topMargin = 550;
+                params.topMargin = 450;
             } else if (textView.getId() == R.id.yulgok7f_6) {
                 params.leftMargin = 340;
-                params.topMargin = 550;
+                params.topMargin = 450;
             } else if (textView.getId() == R.id.yulgok7f_7) {
                 params.leftMargin = 250;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok7f_8) {
                 params.leftMargin = 200;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok7f_9) {
                 params.leftMargin = 150;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok7f_10) {
                 params.leftMargin = 250;
-                params.topMargin = 550;
+                params.topMargin = 450;
             } else if (textView.getId() == R.id.yulgok7f_11) {
                 params.leftMargin = 530;
-                params.topMargin = 260;
+                params.topMargin = 160;
             }
 
 

@@ -58,25 +58,25 @@ public class Car5fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.car5f_1) {
                 params.leftMargin = 230;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_2) {
                 params.leftMargin = 350;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_3) {
                 params.leftMargin = 520;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_4) {
                 params.leftMargin = 620;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_5) {
                 params.leftMargin = 760;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_6) {
                 params.leftMargin = 900;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car5f_7) {
                 params.leftMargin = 800;
-                params.topMargin = 520;
+                params.topMargin = 420;
             }
 
 

@@ -62,31 +62,31 @@ public class Car7fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.car7f_1) {
                 params.leftMargin = 350;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car7f_2) {
                 params.leftMargin = 550;
-                params.topMargin = 220;
+                params.topMargin = 120;
             } else if (textView.getId() == R.id.car7f_3) {
                 params.leftMargin = 900;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car7f_4) {
                 params.leftMargin = 770;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car7f_5) {
                 params.leftMargin = 660;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car7f_6) {
                 params.leftMargin = 550;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.car7f_7) {
                 params.leftMargin = 450;
-                params.topMargin = 520;
+                params.topMargin = 420;
             }else if (textView.getId() == R.id.car7f_8) {
                 params.leftMargin = 370;
-                params.topMargin = 520;
+                params.topMargin = 420;
             }else if (textView.getId() == R.id.car7f_9) {
                 params.leftMargin = 250;
-                params.topMargin = 520;
+                params.topMargin = 420;
             }
 
 

@@ -50,14 +50,14 @@ public class Car1fFragment extends Fragment {
 
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.car1f_1) {
-                params.leftMargin = 100;
-                params.topMargin = 380;
-            } else if (textView.getId() == R.id.car1f_2) {
                 params.leftMargin = 450;
-                params.topMargin = 330;
+                params.topMargin = 280;
+            } else if (textView.getId() == R.id.car1f_2) {
+                params.leftMargin = 100;
+                params.topMargin = 280;
             } else if (textView.getId() == R.id.car1f_3) {
                 params.leftMargin = 780;
-                params.topMargin = 320;
+                params.topMargin = 270;
             }
             // Add more conditions as needed for other TextViews
 

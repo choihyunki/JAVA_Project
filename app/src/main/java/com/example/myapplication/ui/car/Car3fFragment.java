@@ -49,13 +49,13 @@ public class Car3fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.car3f_1) {
                 params.leftMargin = 700;
-                params.topMargin = 280;
+                params.topMargin = 180;
             } else if (textView.getId() == R.id.car3f_2) {
                 params.leftMargin = 800;
-                params.topMargin = 260;
+                params.topMargin = 180;
             } else if (textView.getId() == R.id.car3f_3) {
                 params.leftMargin = 800;
-                params.topMargin = 400;
+                params.topMargin = 300;
             }
             // Add more conditions as needed for other TextViews
 

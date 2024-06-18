@@ -60,25 +60,25 @@ public class Yulgok1fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.yulgok1f_1) {
                 params.leftMargin = 850;
-                params.topMargin = 300;
+                params.topMargin = 200;
             } else if (textView.getId() == R.id.yulgok1f_2) {
                 params.leftMargin = 770;
-                params.topMargin = 300;
+                params.topMargin = 200;
             } else if (textView.getId() == R.id.yulgok1f_3) {
                 params.leftMargin = 770;
-                params.topMargin = 500;
+                params.topMargin = 400;
             } else if (textView.getId() == R.id.yulgok1f_4) {
                 params.leftMargin = 710;
-                params.topMargin = 500;
+                params.topMargin = 400;
             } else if (textView.getId() == R.id.yulgok1f_5) {
                 params.leftMargin = 650;
-                params.topMargin = 500;
+                params.topMargin = 400;
             } else if (textView.getId() == R.id.yulgok1f_6) {
                 params.leftMargin = 590;
-                params.topMargin = 500;
+                params.topMargin = 400;
             } else if (textView.getId() == R.id.yulgok1f_7) {
                 params.leftMargin = 300;
-                params.topMargin = 500;
+                params.topMargin = 400;
             }
 
 

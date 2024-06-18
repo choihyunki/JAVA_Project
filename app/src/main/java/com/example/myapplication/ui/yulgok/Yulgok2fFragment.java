@@ -68,34 +68,34 @@ public class Yulgok2fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.yulgok2f_1) {
                 params.leftMargin = 850;
-                params.topMargin = 260;
+                params.topMargin = 160;
             } else if (textView.getId() == R.id.yulgok2f_2) {
                 params.leftMargin = 260;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_3) {
                 params.leftMargin = 330;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_4) {
                 params.leftMargin = 400;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_5) {
                 params.leftMargin = 470;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_6) {
                 params.leftMargin = 540;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_7) {
                 params.leftMargin = 670;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_8) {
                 params.leftMargin = 740;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_9) {
                 params.leftMargin = 800;
-                params.topMargin = 450;
+                params.topMargin = 350;
             } else if (textView.getId() == R.id.yulgok2f_10) {
                 params.leftMargin = 870;
-                params.topMargin = 450;
+                params.topMargin = 350;
             }
 
 

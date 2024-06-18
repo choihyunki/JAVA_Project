@@ -61,28 +61,28 @@ public class Toegye1fFragment extends Fragment {
             // Set the margins to move overlayImageView to the desired coordinates
             if (textView.getId() == R.id.toegye1f_1) {
                 params.leftMargin = 150;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_2) {
                 params.leftMargin = 270;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_3) {
                 params.leftMargin = 370;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_4) {
                 params.leftMargin = 630;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_5) {
                 params.leftMargin = 730;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_6) {
                 params.leftMargin = 820;
-                params.topMargin = 540;
+                params.topMargin = 440;
             } else if (textView.getId() == R.id.toegye1f_7) {
                 params.leftMargin = 900;
-                params.topMargin = 520;
+                params.topMargin = 420;
             } else if (textView.getId() == R.id.toegye1f_8) {
                 params.leftMargin = 940;
-                params.topMargin = 520;
+                params.topMargin = 420;
             }
 
 
